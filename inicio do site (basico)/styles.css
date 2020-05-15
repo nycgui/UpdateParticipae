@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none; 
+    
+}
+.menu{
+    display:inline-block;
+    list-style:none;
+    position: absolute;
+    margin-left: 74%;
+    margin-top: 30px;
+      
+}
+.menu li{
+    display:inline-block;
+    font-size: 20px;
+}.superior{
+    background-color: rgb(194, 82, 82);
+    height: 67px;
+    
+    
+}
+.menu li a{
+    color: rgb(255, 228, 228);
+    text-decoration: none;
+} 
+.logo{
+    width: 78px;
+    margin-left: 15%;
+    position: absolute;
+    margin-top: -1px;
+}
+.dale li{
+    position: absolute; 
+    font-size: 46px;
+    color: rgb(255, 228, 228);
+    margin-left: 10px;
+    list-style:none;
+    margin-top: 5px;   
+}
+.tfpn{
+    margin-left: 42%;
+    margin-top: 12%;
+    font-size: 60px;  
+    color: rgb(194, 82, 82);
+}
+.xesque{
+    margin-left: 42%; 
+    margin-top: 10px;
+       
+}
+.conteudo{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.conteudo div{
+    font-size: 30px;
+    margin-left: 42%;
+    margin-top: 25px;
+}
+.escolhido{
+    color: cornflowerblue;
+}
+
+
+
+    
