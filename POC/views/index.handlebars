@@ -1,0 +1,28 @@
+<div class="jumbotron">
+  <h1 class="display-4">Bem vindo ao mundo do Nyc!</h1>
+  <p class="lead">Este Blog foi feito em Node.js + MongoDB +Express + Handlebars + Bootstrap </p>
+  <hr class="my-4">
+  <p>Atualizacões contantes para te manter informado sobre o mundo da Tecnologia</p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Crie a sua conta</a>
+</div>
+
+<hr>
+
+<h2>Ultimas Postagens:</h2>
+
+
+{{#each postagens}}
+<div class="card mt-4">
+    <div class="card-body">
+        <h3>{{titulo}}</h3>
+        <p> {{descricao}}</p>
+        <a href="/postagem/{{slug}}"> <button class="btn btn-success">Leia mais</button> </a>
+        <hr>
+        <small>Categoria:{{categoria.nome}}</small><br>
+        <small>Publicado em: {{data}}</small>
+    </div>
+</div>
+
+{{else}}
+    <h5>Sem postagens</h5>
+{{/each}}
