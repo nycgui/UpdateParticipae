@@ -1,0 +1,22 @@
+
+.nav-item{
+    font-size: 20px;
+    
+}
+.titulo{
+    list-style:none;
+    font-size: 60px;
+}
+.pesquisa{
+    margin-left: 39%; 
+    margin-top: 10%;
+}
+.align-self-start{
+    width: 54px;
+}
+.media{
+    margin-top: 20px;
+}
+.ml-3{
+    width: 160px;
+}
